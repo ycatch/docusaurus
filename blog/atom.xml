@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycatch.github.io/docusaurus/blog</id>
-    <title>My Site Blog</title>
+    <title>ycatch Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ycatch.github.io/docusaurus/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>ycatch Blog</subtitle>
     <icon>https://ycatch.github.io/docusaurus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
