@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'ycatch',
   tagline: 'The tagline of my site',
   url: 'https://ycatch.github.io/docusaurus/',
   baseUrl: '/docusaurus/',
