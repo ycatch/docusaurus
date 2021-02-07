@@ -1,6 +1,6 @@
 module.exports = {
   title: 'ycatch',
-  tagline: 'The tagline of my site',
+  tagline: 'hello world',
   url: 'https://ycatch.github.io/docusaurus/',
   baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ycatch/docusaurus/edit/master/website/',
+            'https://github.com/ycatch/docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ycatch/docusaurus/edit/master/website/blog/',
+            'https://github.com/ycatch/docusaurus/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
