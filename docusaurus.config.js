@@ -25,11 +25,21 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/ycatch/docusaurus',
-          label: 'GitHub',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
           position: 'right',
         },
       ],
     },
+    algolia: {
+        apiKey: 'YOUR_API_KEY',
+        indexName: 'docusaurus',
+        // Optional: see doc section bellow
+        contextualSearch: true,
+        // Optional: Algolia search parameters
+        searchParameters: {},
+        //... other Algolia params
+      },
     footer: {
       style: 'dark',
       links: [
