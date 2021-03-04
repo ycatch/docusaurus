@@ -31,15 +31,6 @@ module.exports = {
         },
       ],
     },
-    algolia: {
-        apiKey: 'YOUR_API_KEY',
-        indexName: 'docusaurus',
-        // Optional: see doc section bellow
-        contextualSearch: true,
-        // Optional: Algolia search parameters
-        searchParameters: {},
-        //... other Algolia params
-    },
     colorMode: {
         // "light" | "dark"
         defaultMode: 'light',
@@ -124,5 +115,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+    require.resolve('@cmfcmf/docusaurus-search-local')
   ],
 };
